@@ -1,0 +1,132 @@
+/*Rivar Yoder*/
+/*Web Development Final: CSS*/
+
+
+body {	background-color: #000000;
+		background-image: linear-gradient(to bottom, #141015, #29202d);
+		background-size: 100%;
+		background-repeat: repeat-y;
+		color: #ffcd54; 
+		font-family: Arial, Halvetica, sans-serif;
+		margin-top: 0;
+		}
+
+header {background-color: #691028;
+		border: 5px solid #ffcd54;
+		text-indent: 1em;
+		}
+		
+div	{	margin: 5px;
+		text-indent: 1em;
+		margin-top:0;
+		}		
+
+
+nav { 	background-color: #ffcd54;
+		text-indent: 1em;
+		text-shadow: 1px 1px 2px #330000;
+		padding-bottom: 5px;
+		text-align: center;
+		font-family: Arial, Halvetica, sans-serif;
+		}
+
+nav a {	text-decoration: none;
+		color: #141015;
+		}
+
+nav a:hover{color:purple;}
+nav a:visited{color:#8e2f49;}
+
+dt	{	color: #ffcd54;
+		padding-top: 6px;
+		font-family: Arial, Halvetica, sans-serif;
+		font-weight: bold;
+		font-size: 1em;
+		text-align: center;
+		}
+
+dd {	color: #ffcd54;
+		padding-bottom: 2px;
+		font-family: Arial, Halvetica, sans-serif;
+		margin: 5px;
+		text-align: center;
+		}
+
+h1  {	color: #ffcd54;
+		font-size: 2em;
+		font-family: Arial, Halvetica, sans-serif;
+		text-shadow: 3px 3px 5px #330000;
+		text-align: center;
+		margin: .5em;
+		}
+
+h2  { 	color: #ffcd54; 
+		font-size: 1.25em;
+		font-family: Arial, Halvetica, sans-serif;
+		text-shadow: 3px 3px 5px #330000;
+		text-align: center;
+		margin: .5em;
+		}
+	
+h3	{	color: #ffcd54;
+		font-size: .75em;
+		font-family: Arial, Halvetica, sans-serif;
+		text-shadow: 3px 3px 5px #330000;
+		text-align: center;
+		font-style: italic;
+		}
+	
+table{	column-gap: 5px;
+		margin: 5px;
+		text-align: center;
+		}
+
+td  {	color: #ffcd54; 
+		text-shadow: 3px 3px 5px #330000;
+		text-align: center;
+		}
+	
+tr	{	background-color: #8e2f49;
+		color: pink;
+		text-shadow: 3px 3px 5px #330000;
+		text-align: center;
+		}
+
+th	{	background-color: #691028;
+		color: #ffcd54;
+		border: 2px solid #ffcd54;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		text-align: center;
+		}
+
+td	{	border-radius: 8px;
+		border: 2px solid #8e2f49;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		}
+	
+footer{	background-color: #691028;
+		border: 5px solid #ffcd54;
+		text-indent: 1em;
+		}
+		
+#body { background-color: #691026;
+		background-image: linear-gradient(to bottom, #24191c, #531626);
+		padding: 2em;
+		padding-top: 9em;
+		margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        min-width: 800px; 
+		border: 5px solid #531626;		
+		}
+			 
+#fixed {width: 100%;
+		position: fixed;
+		margin: 0;
+		}
